@@ -1,0 +1,182 @@
+/* Ensure the body and html take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure the main container takes full height */
+.content-page {
+  display: flex;
+  height: calc(100vh - 60px); /* Adjust height to account for navbar height */
+}
+
+/* Style the navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #03040d;
+  padding: 10px 20px;
+  height: 60px; /* Set a fixed height for the navbar */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar .logo img {
+  height: 40px; /* Adjust as needed */
+}
+
+.navbar .nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar .nav-links li {
+  margin-left: 20px;
+}
+
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  color: #007bff; /* Hover color */
+}
+
+.sidebar {
+  width: 250px;
+  overflow-y: auto;
+  background-color: #1c1c1c; /* Dark background color */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  height: calc(100vh - 60px); /* Full height of the parent container minus navbar height */
+  position: fixed; /* Fix the sidebar to the left */
+  top: 60px; /* Position it below the navbar */
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  color: #f0f0f0; /* Light text color */
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  border-radius: 5px;
+}
+
+.sidebar ul li button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.sidebar .more-info-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  border-radius: 5px;
+}
+
+.sidebar .more-info-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.sidebar .exit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #dc3545; /* Exit button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  border-radius: 5px;
+}
+
+.sidebar .exit-button:hover {
+  background-color: #c82333; /* Darker shade for hover effect */
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 250px; /* Offset the main content to the right of the fixed sidebar */
+}
+
+.pdf-list h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #1c1c1c;
+}
+
+.pdf-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pdf-list ul li {
+  margin-bottom: 10px;
+}
+
+.pdf-list ul li button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  border-radius: 5px;
+}
+
+.pdf-list ul li button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.module-title {
+  color: #007bff; /* Primary color for module title */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.subject-title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c1c1c; /* Dark color for subject title */
+}

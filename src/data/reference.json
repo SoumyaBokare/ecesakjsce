@@ -1,0 +1,51 @@
+{
+    "fy": {
+      "am1": {
+        "name": "AM1",
+        "books": ["/public/notes/Others/Reference books/am1 book.pdf"]
+      },
+      "am2": {
+        "name": "AM2",
+        "books": ["/public/notes/Others/Reference books/am2 book.pdf"]
+      },
+      "em": {
+        "name": "EM",
+        "books": ["/public/notes/Others/Reference books/em book.pdf"]
+      },
+      "eeee": {
+        "name": "EEEE",
+        "books": ["/public/notes/Others/Reference books/eeee book.pdf"]
+      }
+    },
+    "sy": {
+     
+      "dm": {
+        "name": "DM",
+        "books": ["/public/notes/Others/Reference books/dm book.pdf"]
+      },
+      "ds": {
+        "name": "DS",
+        "books": ["/public/notes/Others/Reference books/ds book.pdf"]
+      },
+      "aoa": {
+        "name": "AOA",
+        "books": ["/public/notes/Others/Reference books/aoa book.pdf"]
+      },
+      "nss": {
+        "name": "NSS",
+        "books": ["/public/notes/Others/Reference books/nss book.pdf"]
+      },
+      "aec": {
+        "name": "AEC",
+        "books": ["/public/notes/Others/Reference books/aec book.pdf"]
+      },
+      "adc": {
+        "name": "ADC",
+        "books": ["/public/notes/Others/Reference books/adc book.pdf"]
+      },
+      "de": {
+        "name": "DE",
+        "books": ["/public/notes/Others/Reference books/de book.pdf"]
+      }
+    }
+  }

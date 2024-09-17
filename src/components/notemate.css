@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(to right, #1b77a1, #2044e4, #170f4f, #8114e8);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: #ffffff; 
+    overflow-x: hidden; 
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.notemate-hero {
+    position: relative;
+    height: 400px; /* Adjust height as needed */
+    background: url('/assets/hero-background.jpg') no-repeat center center/cover; /* Add your background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.notemate-hero-content {
+    position: relative;
+    z-index: 1;
+    margin-top: 350px;
+}
+
+.notemate-hero h1 {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+}
+
+.notemate-hero p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+}
+
+.button-29 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "Orbitron", monospace;
+    height: 48px !important;
+    justify-content: center;
+    line-height: 1;
+    overflow: hidden;
+    padding: 0 16px;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    white-space: nowrap;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.button-29:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.down-arrow {
+    font-size: 2rem;
+    margin-top: 1rem;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.fy {
+    margin: 16rem 0 2rem 0; /* Increase the top margin to add more space */
+    font-size: 2rem;
+    text-align: center;
+    opacity: 0;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
+}
+
+.sy {
+    text-align: center;
+    margin: 5rem 0 2rem 0;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto; /* Center the grid container */
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-size: 60px 60px; /* Ensure the entire image fits within the card */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    height: 240px; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for text */
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.view-details-btn {
+    flex: 1;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.view-details-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Background images for cards */
+.card.am1 {
+    background-image: url('../note_icons/am1.png');
+}
+
+.card.am2 {
+    background-image: url('../note_icons/am2.png');
+}
+
+.card.ep {
+    background-image: url('../note_icons/ep.png');
+}
+
+.card.em {
+    background-image: url('../note_icons/em.png');
+}
+
+.card.ec {
+    background-image: url('../note_icons/ec.png');
+}
+
+.card.ed {
+    background-image: url('../note_icons/ed.png');
+}
+
+.card.eeee {
+    background-image: url('../note_icons/eeee.png');
+}
+
+.card.pic {
+    background-image: url('../note_icons/pic.png');
+}
+
+.card.pp {
+    background-image: url('../note_icons/pp.png');
+}
+
+.card.itvc {
+    background-image: url('../note_icons/itvc.png');
+}
+
+.card.casot {
+    background-image: url('../note_icons/casot.png');
+}
+
+.card.dm {
+    background-image: url('../note_icons/dm.png');
+}
+
+.card.aec {
+    background-image: url('../note_icons/aec.png');
+}
+
+.card.adc {
+    background-image: url('../note_icons/adc.png');
+}
+
+.card.de {
+    background-image: url('../note_icons/de.png');
+}
+
+.card.ds {
+    background-image: url('../note_icons/aoa.png');
+}
+
+.card.aoa {
+    background-image: url('../note_icons/aoa.png');
+}
+
+.card.oopl {
+    background-image: url('../note_icons/oopl.png');
+}
+
+.card.nss {
+    background-image: url('../note_icons/nss.png');
+}
+
+.card.dbms {
+    background-image: url('../note_icons/dbms.png');
+}
+
+.card.mpmc {
+    background-image: url('../note_icons/mpmc.png');
+}
+
+.card.honours,
+.card.minors {
+    background-image: url('../note_icons/honours.png'); /* Adjust the image URL for minors if different */
+    grid-column: 2 / span 1; /* Center the card by placing it in the middle column */
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .notemate-hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .notemate-hero p {
+        font-size: 1.25rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .notemate-hero {
+        height: 300px;
+    }
+
+    .notemate-hero-content {
+        margin-top: 250px;
+    }
+
+    .notemate-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .notemate-hero p {
+        font-size: 1rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        height: 200px;
+    }
+
+    .sy {
+        margin: 2rem 0; /* Adjust margin for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .notemate-hero {
+        height: 200px;
+    }
+
+    .notemate-hero-content {
+        margin-top: 150px;
+    }
+
+    .notemate-hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .notemate-hero p {
+        font-size: 0.875rem;
+    }
+
+    .card {
+        height: 150px;
+    }
+
+    .sy {
+        margin: 1rem 0; /* Adjust margin for very small screens */
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr; /* Ensure all cards are in a single column */
+    }
+}

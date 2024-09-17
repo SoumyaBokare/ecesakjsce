@@ -1,0 +1,27 @@
+const modulesConfig = {
+    am1: ['Module 1', 'Module 2', 'Module 3', 'Module 4', 'Module 5'],
+    am2:['Module 1', 'Module 2', 'Module 3', 'Module 4', 'Module 5'],
+    ep: ['Module 1', 'Module 2', 'Module 3', 'Module 4', 'Module 5'],
+    em: ['Module 1', 'Module 2', 'Module 3', 'Module 4', 'Module 5'],
+    ec: ['Module 1', 'Module 2', 'Module 3', 'Module 4', 'Module 5'],
+    ed: ['Module 1', 'Module 2', 'Module 3', 'Module 4', 'Module 5'],
+    eeee: ['Module 1', 'Module 2', 'Module 3', 'Module 4', 'Module 5'],
+    pic: ['Module 1', 'Module 2', 'Module 3', 'Module 4', 'Module 5'],
+    pp: ['Module 1', 'Module 2', 'Module 3', 'Module 4', 'Module 5'],
+    itvc: ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+    casot: ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+    dm: ['Module 1', 'Module 2', 'Module 3', 'Module 4','Module 5','Module 6','Module 7'],
+    aec: ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+    adc : ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+    de: ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+    ds : ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+    aoa : ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+    oopl : ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+    nss : ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+    dbms: ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+    mpmc: ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+    honour: ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+    minors: ['Module 1', 'Module 2', 'Module 3', 'Module 4'],
+  };
+  
+  export default modulesConfig;

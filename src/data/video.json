@@ -1,0 +1,86 @@
+{
+    "fy": {
+      "am1": {
+        "name": "AM1",
+        "videos": ["/notes/Others/Videos/am1.pdf"]
+      },
+      "am2": {
+        "name": "AM2",
+        "videos": ["/notes/Others/Videos/am2.pdf"]
+      },
+      "em": {
+        "name": "EM",
+        "videos": ["/notes/Others/Videos/em.pdf"]
+      },
+      "ec": {
+        "name": "EC",
+        "videos": ["/notes/Others/Videos/ec.pdf"]
+      },
+      "ed": {
+        "name": "ED",
+        "videos": ["/notes/Others/Videos/ed.pdf"]
+      },
+      "eeee": {
+        "name": "EEEE",
+        "videos": ["/notes/Others/Videos/eeee.pdf"]
+      },
+      "ep": {
+        "name": "EP",
+        "videos": ["/notes/Others/Videos/ep.pdf"]
+      },
+      "pic": {
+        "name": "PIC",
+        "videos": ["/notes/Others/Videos/pic.pdf"]
+      },
+      "pp": {
+        "name": "PP",
+        "videos": ["/notes/Others/Videos/pp.pdf"]
+      }
+    },
+    "sy": {
+      "itvc": {
+        "name": "ITVC",
+        "videos": ["/notes/Others/Videos/itvc.pdf"]
+      },
+      "casot": {
+        "name": "CASOT",
+        "videos": ["/notes/Others/Videos/casot.pdf"]
+      },
+      "dm": {
+        "name": "DM",
+        "videos": ["/notes/Others/Videos/dm.pdf"]
+      },
+      "ds": {
+        "name": "DS",
+        "videos": ["/notes/Others/Videos/ds.pdf"]
+      },
+      "aoa": {
+        "name": "AOA",
+        "videos": ["/notes/Others/Videos/aoa.pdf"]
+      },
+      "nss": {
+        "name": "NSS",
+        "videos": ["/notes/Others/Videos/nss.pdf"]
+      },
+      "aec": {
+        "name": "AEC",
+        "videos": ["/notes/Others/Videos/aec.pdf"]
+      },
+      "adc": {
+        "name": "ADC",
+        "videos": ["/notes/Others/Videos/adc.pdf"]
+      },
+      "dbms": {
+        "name": "DBMS",
+        "videos": ["/notes/Others/Videos/dbms.pdf"]
+      },
+      "oopl": {
+        "name": "OOPL",
+        "videos": ["/notes/Others/Videos/oopl.pdf"]
+      },
+      "de": {
+        "name": "DE",
+        "videos": ["/notes/Others/Videos/de.pdf"]
+      }
+    }
+  }

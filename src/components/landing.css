@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200..700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --pr-color: #fff;
+  --second-color: #0a0a0a;
+  --cubicbz: cubic-bezier(.9, 0, .1, 1);
+  --fz-big: 60px;
+  --hover-shadow-color: rgba(108, 19, 192, 0.5); /* UI-related color for box shadow */
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+body {
+  background: linear-gradient(to right, #082330, #170b4b, #1040bb) !important;
+}
+
+.landing {
+  width: 100%;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 70px;
+  color: var(--pr-color);
+  position: sticky;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: var(--pr-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #007bff;
+}
+
+.hero-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  /* background: url('../public/assets/images/grp.JPG') no-repeat center center/cover; */
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  position: relative;
+  font-size: var(--fz-big);
+  text-align: center;
+  color: var(--pr-color);
+  text-transform: uppercase;
+  mix-blend-mode: difference;
+  z-index: 2;
+}
+
+.header__img {
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  top: 0;
+  right: 100px;
+  clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+  overflow: hidden;
+}
+
+.header__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-title {
+  position: relative;
+  margin-bottom: 50px;
+  line-height: .8;
+  font-size: 70px;
+  text-align: center;
+  color: var(--pr-color);
+  text-transform: uppercase;
+  margin-top: 55px;
+}
+
+.about__p, .benefits__p {
+  line-height: 1.4;
+  font-size: 20px;
+  color: #fff225;
+  padding: 0 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-us-section, .why-we-exist-section {
+  background: rgba(255, 255, 255, 0.2) !important; /* Semi-transparent background */
+  border-radius: 10px !important;
+  padding: 20px !important;
+  margin: 40px !important;
+  backdrop-filter: blur(10px) !important; /* Blur effect */
+  -webkit-backdrop-filter: blur(10px) !important; /* For Safari */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow */
+  border: 1px solid rgba(255, 255, 255, 0.3) !important; /* Light border */
+  margin-bottom: 25px;
+}
+
+.work__item-num {
+  font-size: 70px;
+  color: var(--pr-color);
+  mix-blend-mode: difference;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.member {
+  text-align: center;
+  width: 250px; /* Adjust the width as needed */
+  height: 350px; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+  margin: 10px 45px 55px 55px;
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.member:hover {
+  box-shadow: 12px 14px 20px var(--hover-shadow-color);
+}
+
+.member-title {
+  margin-top: 360px;
+  font-size: 14px;
+  color: var(--pr-color);
+}
+
+.team-title {
+  text-align: center;
+  margin: 40px 40px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.footer__div {
+  font-size: 20px;
+  letter-spacing: 15px;
+  color: var(--pr-color);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.member.pratham {
+  background-image: url('/assets/members/pratham.jpg');
+}
+
+.member.soumya {
+  background-image: url('../public/assets/members/soumya.jpg');
+}
+
+.member.arpita {
+  background-image: url('../public/assets/members/arpita.PNG');
+}
+
+.member.hrishikesh {
+  background-image: url('../public/assets/members/hrishikesh.jpg');
+}
+
+.member.tejas {
+  background-image: url('../public/assets/members/tejas.jpg');
+}
+
+.member.piyush {
+  background-image: url('../public/assets/members/tyagi.jpg');
+}
+
+.member.miten {
+  background-image: url('../public/assets/members/miten.png');
+}
+
+.member.siya {
+  background-image: url('../public/assets/members/siya.jpg');
+}
+
+.member.aamir {
+  background-image: url('../public/assets/members/aamir.jpg');
+}
+
+.member.purva {
+  background-image: url('../public/assets/members/purva.png');
+}
+
+.member.priyanshu {
+  background-image: url('../public/assets/members/priyanshu.jpg');
+}
+
+.member.rishabh {
+  background-image: url('../public/assets/members/rishabh.jpg');
+}
+
+.member.ajeet {
+  background-image: url('../public/assets/members/ajeet.jpg');
+}
+
+.member.arnav {
+  background-image: url('../public/assets/members/arnav.jpeg');
+}
+
+.member.swajeet {
+  background-image: url('../public/assets/members/swajeet.jpg');
+}
+
+.member.aliasgar {
+  background-image: url('../public/assets/members/ali.png');
+}
+
+.member.aarohi {
+  background-image: url('../public/assets/members/aarohi.JPG');
+}
+
+.member.jaiee {
+  background-image: url('../public/assets/members/jaiee.jpg');
+}
+
+.member.lomte {
+  background-image: url('../public/assets/members/piyush.jpg');
+}
+
+.member.chirayu {
+  background-image: url('../public/assets/members/chirayu.jpg');
+}
+
+.member.takshil {
+  background-image: url('../public/assets/members/takshil.jpg');
+}
+
+.member.jhanvi {
+  background-image: url('../public/assets/members/jhanvi.jpg');
+}
+
+.member.purva_2 {
+  background-image: url('../public/assets/members/pratham.jpg');
+}
+
+.member.shrutika {
+  background-image: url('../public/assets/members/pratham.jpg');
+}
+
+.member.arun {
+  background-image: url('../public/assets/members/arun.jpg');
+}
+
+.member.swapnil {
+  background-image: url('../public/assets/members/swapnil.png');
+}

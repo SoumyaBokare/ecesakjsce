@@ -1,0 +1,769 @@
+{
+  "fy": {
+    "am1": {
+      "name": "AM1",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/FY/AM1/1_Complex Numbers - Review ppt.pdf",
+            "/notes/FY/AM1/1_COMPLEX NUMBERS-REVIEW.pdf",
+            "/notes/FY/AM1/2_De Moivres Theorem related examples.pdf",
+            "/notes/FY/AM1/3_Roots of Complex Numbers.pdf",
+            "/notes/FY/AM1/7_Logarithm of complex number.pdf"
+          ]
+        },
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/FY/AM1/1_PARTIAL DIFFERENTIATION.pdf",
+            "/notes/FY/AM1/3_applications of partial differentiation.pdf",
+            "/notes/FY/AM1/4_Application of DE.pdf",
+            "/notes/FY/AM1/5_Higher order DE.pdf",
+            "/notes/FY/AM1/8_Numerical Methods for system of equations.pdf"
+          ]
+        },
+        {
+          "name": "Module 3",
+          "paths": [
+            "/notes/FY/AM1/4_HYPERBOLIC and Circular functions.pdf",
+            "/notes/FY/AM1/5_HYPERBOLIC and Circular functions examples.pdf",
+            "/notes/FY/AM1/6_inverse HYPERBOLIC functions.pdf"
+          ]
+        },
+        {
+          "name": "Module 4",
+          "paths": [
+            "/notes/FY/AM1/6_homogeneous System of Linear equations.pdf",
+            "/notes/FY/AM1/1_Homogeneous functions Theorem Corollaries.pdf",
+            "/notes/FY/AM1/Practice Questions on system of equations.pdf",
+            "/notes/FY/AM1/Proofs related to Homogeneous Functions.pdf",
+            "/notes/FY/AM1/Question bank 1- complex numbers.pdf"
+          ]
+        },
+        {
+          "name": "Module 5",
+          "paths": [
+            "/notes/FY/AM1/5_System of Linear equations (Non-homogeneous).pdf",
+            "/notes/FY/AM1/Question Bank Rank of Matrices ASD.pdf",
+            "/notes/FY/AM1/Questions on Types and rank of Matrices.pdf",
+            "/notes/FY/AM1/Differential formula rules and tricks.pdf"
+          ]
+        }
+      ],
+      "extras": [
+        "/notes/FY/AM1/BASICS OF DIFFERENTIAL EQUATIONS.pdf",
+        "/notes/FY/AM1/basics of Matrices.pdf",
+        "/notes/FY/AM1/Basics of Trigonometry.pdf",
+        "/notes/FY/AM1/G.V Kumbhojkar - Applied Mathematics.pdf",
+        "/notes/FY/AM1/Self Learning Topic.pdf"
+      ]
+    },
+    "am2": {
+      "name": "AM2",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/FY/AM2/1_Cayley Hamilton Theorem.pdf",
+            "/notes/FY/AM2/1_Eigen Values and Eigen Vectors - modified.pdf",
+            "/notes/FY/AM2/1_Properties_ Eigen Values and Eigen Vectors.pdf",
+            "/notes/FY/AM2/1_Eigen-New-compressed.pdf"
+          ]
+        },
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/FY/AM2/5_Evaluation of particular integral.pdf"
+          ]
+        },
+        {
+          "name": "Module 3",
+          "paths": [
+            "/notes/FY/AM2/5_COMPLEX INTEGRATION.pdf",
+            "/notes/FY/AM2/5_COMPLEX VARIABLES.pdf"
+          ]
+        },
+        {
+          "name": "Module 4",
+          "paths": [
+            "/notes/FY/AM2/5_Integral formulae substitutions and tricks.pdf",
+            "/notes/FY/AM2/5_Integration Formula List.pdf"
+          ]
+        },
+        {
+          "name": "Module 5",
+          "paths": [
+            "/notes/FY/AM2/5_Green theorem.pdf"
+          ]
+        }
+      ]
+    },
+    "ec": {
+      "name": "EC",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/FY/EC/1.pdf",
+            "/notes/FY/EC/1_Avg. Mol. Wt Numerical.pdf",
+            "/notes/FY/EC/1_Combustion numerical.pdf"
+          ]
+        },
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/FY/EC/1_Water.pdf",
+            "/notes/FY/EC/1_WaterNotes.pdf"
+          ]
+        },
+        {
+          "name": "Module 3",
+          "paths": [
+            "/notes/FY/EC/2_Nanotechnology (2).pdf",
+            "/notes/FY/EC/2_Polymers (1).pdf",
+            "/notes/FY/EC/2_Revised Polymers Study Material.pdf"
+          ]
+        },
+        {
+          "name": "Module 4",
+          "paths": [
+            "/notes/FY/EC/3_Energy.pdf",
+            "/notes/FY/EC/4_Green Chemistry.pdf",
+            "/notes/FY/EC/4_Spectroscopy PPT.pdf",
+            "/notes/FY/EC/4_Spectroscopy PPT.pptx",
+            "/notes/FY/EC/4_Spectroscopy.pdf",
+            "/notes/FY/EC/4_Spectroscopynew.pdf",
+            "/notes/FY/EC/4_Spectroscopy.pptx"
+          ]
+        },
+        {
+          "name": "Module 5",
+          "paths": [
+            "/notes/FY/EC/4_GCV-LCV numerical.pdf",
+            "/notes/FY/EC/5_Lectures 7-11 (1).pdf"
+          ]
+        }
+      ],
+      "extras": [
+        "/notes/FY/EC/ec books.pdf"
+      ]
+    },
+    "ed": {
+      "name": "ED",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/FY/ED/Engineering Drawing .pdf"
+          ]
+        }
+      ]
+    },
+    "eeee": {
+      "name": "EEEE",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/FY/EEEE/Mimans Electronics-Devices-and-Circuits-compressed.pdf"
+          ]
+        }
+      ]
+    },
+    "em": {
+      "name": "EM",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/FY/EM/Module 01 (1).pdf"
+          ]
+        },
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/FY/EM/Module 02.pdf"
+          ]
+        },
+        {
+          "name": "Module 4",
+          "paths": [
+            "/notes/FY/EM/Module 4.pdf"
+          ]
+        },
+        {
+          "name": "Module 5",
+          "paths": [
+            "/notes/FY/EM/Module 05.pdf"
+          ]
+        }
+      ],
+      "extras": [
+        "/notes/FY/EM/N. H. Dubey - Engineering Mechanics (Mu-2017) Pb (2017, McGraw-Hill Education) - libgen.li-compressed.pdf"
+      ]
+    },
+    "ep": {
+      "name": "EP",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/FY/EP/1.Lasers - Formulas.pdf",
+            "/notes/FY/EP/1.Lasers - Notes.pdf",
+            "/notes/FY/EP/1.Lasers - Numericals.pdf",
+            "/notes/FY/EP/1.Lasers - Questions.pdf",
+            "/notes/FY/EP/1.Optical Fibres - Formulas.pdf",
+            "/notes/FY/EP/1.Optical Fibres - Notes.pdf",
+            "/notes/FY/EP/1.Optical Fibres - Numericals.pdf",
+            "/notes/FY/EP/1.Optical Fibres - Questions.pdf"
+          ]
+        },
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/FY/EP/2.Dielectrics - Formulas.pdf",
+            "/notes/FY/EP/2.Dielectrics - Notes.pdf",
+            "/notes/FY/EP/2.Dielectrics - Questions.pdf"
+          ]
+        },
+        {
+          "name": "Module 4",
+          "paths": [
+            "/notes/FY/EP/4.Electrodynamics - Notes1.pdf",
+            "/notes/FY/EP/4.Electrodynamics - Notes2.pdf",
+            "/notes/FY/EP/4.Electrodynamics - Questions1.pdf",
+            "/notes/FY/EP/4.Electrodynamics - Questions2.pdf"
+          ]
+        }
+      ]
+    }
+  },
+  
+   "sy": {
+    "ds": {
+      "name": "DS",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/SY/DS/1. Data Structures - Introduction.pptx.pdf",
+            "/notes/SY/DS/1. DS_Module 1 & LL.pdf",
+            "/notes/SY/DS/1. DS_Module 1.pptx.pdf",
+            "/notes/SY/DS/1. Introduction to data structures.pdf",
+            "/notes/SY/DS/1. Module 1.pdf"
+          ]
+        },
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/SY/DS/2. linked list-compressed.pdf",
+            "/notes/SY/DS/2. Linked List.pdf",
+            "/notes/SY/DS/2. Module 2_LL, Stacks and Queues.pptx_removed.pdf",
+            "/notes/SY/DS/2. Module 2_Stacks.pdf",
+            "/notes/SY/DS/2. Module 2_LL.pdf",
+            "/notes/SY/DS/2. Module 2.2-2.3.pdf",
+            "/notes/SY/DS/2. Queues_Module_2.pdf",
+            "/notes/SY/DS/2. Stack(MOD 2).pdf",
+            "/notes/SY/DS/2. Queu(MOD 2).pdf",
+            "/notes/SY/DS/2. Stacks and Queues.pptx-compressed.pdf",
+            "/notes/SY/DS/2. Stacks and qeue-compressed.pdf"
+          ]
+        },
+        {
+          "name": "Module 3",
+          "paths": [
+            "/notes/SY/DS/3. DS_Module_3_Tree-compressed.pdf",
+            "/notes/SY/DS/3. DS_Module_3.pptx-compressed.pdf",
+            "/notes/SY/DS/3. DS_Module_3_Graph.pdf",
+            "/notes/SY/DS/3. DS_Module_3.pptx.pdf"
+          ]
+        },
+        {
+          "name": "Module 4",
+          "paths": [
+            "/notes/SY/DS/4. DS_Module4.pptx.pdf",
+            "/notes/SY/DS/4. DS_Module5.pptx.pdf"
+          ]
+        }
+      ],
+      "extra": [
+        "/notes/SY/DS/Data Structures Using C by rema thareja-compressed.pdf"
+      ]
+    },
+    "de": {
+      "name": "DE",
+      "modules": [
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/SY/DE/2. Mod 2.pdf"
+          ]
+        }
+      ],
+      "extra": [
+        "/notes/SY/DE/DE videos.pdf",
+        "/notes/SY/DE/DE Videos(1).pdf",
+        "/notes/SY/DE/Digital Design With an Introduction to the Verilog HDL 5th ED.pdf",
+        "/notes/SY/DE/DIGITAL LOGIC DESIGN (R17A0461).pdf",
+        "/notes/SY/DE/Modern Digital Electronics-compressed.pdf"
+      ]
+    },
+    "itvc": {
+      "name": "ITVC",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/SY/ITVC/1. Convolution Theorem.pdf",
+            "/notes/SY/ITVC/1. Dirac Delta Function.pdf",
+            "/notes/SY/ITVC/1. Effect of division by t.pdf",
+            "/notes/SY/ITVC/1. Effect of multiplication by t.pdf",
+            "/notes/SY/ITVC/1. Exact DE.pdf",
+            "/notes/SY/ITVC/1. Examples Using Partial Fraction Method.pdf",
+            "/notes/SY/ITVC/1. Examples on Inverse Laplace Transform.pdf",
+            "/notes/SY/ITVC/1. First Shifting theorem.pdf",
+            "/notes/SY/ITVC/1. Heaviside's Unit Step Function.pdf",
+            "/notes/SY/ITVC/1. Introduction to inverse Laplace Transform.pdf",
+            "/notes/SY/ITVC/1. Introduction to Laplace Transform.pdf",
+            "/notes/SY/ITVC/1. introduction.pdf",
+            "/notes/SY/ITVC/1. Laplace transform of Derivative.pdf",
+            "/notes/SY/ITVC/1. Laplace transform of integral.pdf",
+            "/notes/SY/ITVC/1. Linear DE.pdf",
+            "/notes/SY/ITVC/1. PERIODIC FUNCTIONS.pdf",
+            "/notes/SY/ITVC/1. Use of differentiation of ∅(s).pdf"
+          ]
+        },
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/SY/ITVC/2. COMPOSITE FUNCTIONS.pdf",
+            "/notes/SY/ITVC/2. Extra Questions on Fourier Transform.pdf",
+            "/notes/SY/ITVC/2. FI for formulas.pdf",
+            "/notes/SY/ITVC/2. Fourier Series in O(2,2I).pdf",
+            "/notes/SY/ITVC/2. Fourier Series in O(2,2π).pdf",
+            "/notes/SY/ITVC/2. Fourier Series_Study Material.pdf",
+            "/notes/SY/ITVC/2. Fourier Series-sample program and Instructions.pdf",
+            "/notes/SY/ITVC/2. Fourier Transform.pdf",
+            "/notes/SY/ITVC/2. NonExact DE 1.pdf"
+          ]
+        },
+        {
+          "name": "Module 4",
+          "paths": [
+            "/notes/SY/ITVC/4. vector algebra solved examples.pdf",
+            "/notes/SY/ITVC/4. Vector Differentiation.pdf"
+          ]
+        },
+        {
+          "name": "Module 5",
+          "paths": [
+            "/notes/SY/ITVC/5. mod 5-compressed.pdf"
+          ]
+        }
+      ],
+      "extra": [
+        "/notes/SY/ITVC/Ques Bank-Fourier series, Fourier integral, Fourier transform.pdf",
+        "/notes/SY/ITVC/Ques Bank-vec differentiation.pdf"
+      ]
+    },
+    "nss": {
+      "name": "NSS",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/SY/NSS/1. mod1-compressed.pdf"
+          ]
+        },
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/SY/NSS/2. mod 2 full-compressed.pdf"
+          ]
+        },
+        {
+          "name": "Module 4",
+          "paths": [
+            "/notes/SY/NSS/4. operations on signals.pdf",
+            "/notes/SY/NSS/4. Basic Signals.pdf"
+          ]
+        }
+      ],
+      "extra": [
+        "/notes/SY/NSS/NSS Videos.pdf",
+        "/notes/SY/NSS/5. 211064414-Networks-and-Systems-by-D-Roy-Choudhury.pdf"
+      ]
+    },
+    "dm": {
+      "name": "DM",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/SY/DM/1. Sets.pdf"
+          ]
+        },
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/SY/DM/2. Logic.pdf"
+          ]
+        },
+        {
+          "name": "Module 3",
+          "paths": [
+            "/notes/SY/DM/3. Module 3_String Matching Algorithms.pptx.pdf"
+          ]
+        },
+        {
+          "name": "Module 4",
+          "paths": [
+            "/notes/SY/DM/4. Mod4 Posets and Lattice.pdf"
+          ]
+        },
+        {
+          "name": "Module 5",
+          "paths": [
+            "/notes/SY/DM/5. Module 5 Functions.pdf"
+          ]
+        },
+        {
+          "name": "Module 6",
+          "paths": [
+            "/notes/SY/DM/6. Module 6 Graphs.pdf"
+          ]
+        },
+        {
+          "name": "Module 7",
+          "paths": [
+            "/notes/SY/DM/7. Module 7 Algebraic Structures.pdf"
+          ]
+        }
+      ],
+      "extra": [
+        "/notes/SY/DM/Discrete Mathematics with applications susanna.pdf"
+      ]
+    },
+    "aec": {
+        "name": "AEC",
+        "modules": [
+          {
+            "name": "Module 1",
+            "paths": [
+              "/notes/SY/AEC/1. AEC_Lec_01.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_01_markings.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_02.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_03_markings.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_03.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_04.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_05_markings.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_05.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_06_compressed.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_07.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_08_compressed.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_09.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_10.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_11_markings.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_11.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_12_CE_amplifier.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_12_markings.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_12.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_13_markings.pdf",
+              "/notes/SY/AEC/1. AEC_Lec_13.pdf"
+            ]
+          },
+          {
+            "name": "Module 2",
+            "paths": [
+              "/notes/SY/AEC/2. 14.2.pdf",
+              "/notes/SY/AEC/2. 14.3.pdf",
+              "/notes/SY/AEC/2. 14.5.pdf",
+              "/notes/SY/AEC/2. 15.1.pdf",
+              "/notes/SY/AEC/2. 15.2.pdf",
+              "/notes/SY/AEC/2. 16.1.pdf",
+              "/notes/SY/AEC/2. 16.2.pdf",
+              "/notes/SY/AEC/2. 16.3.pdf",
+              "/notes/SY/AEC/2. 16.4.pdf",
+              "/notes/SY/AEC/2. 16.5.pdf",
+              "/notes/SY/AEC/2. 16.6.pdf",
+              "/notes/SY/AEC/2. 16.7.pdf",
+              "/notes/SY/AEC/2. 17.1.pdf",
+              "/notes/SY/AEC/2. 18.1.pdf",
+              "/notes/SY/AEC/2. 19.20.pdf",
+              "/notes/SY/AEC/2. 20.1.pdf",
+              "/notes/SY/AEC/2. 20.2.pdf",
+              "/notes/SY/AEC/2. 20.3.pdf",
+              "/notes/SY/AEC/2. 21.1.pdf",
+              "/notes/SY/AEC/2. 21.2.pdf",
+              "/notes/SY/AEC/2. 21.3.pdf",
+              "/notes/SY/AEC/2. 21.4.pdf",
+              "/notes/SY/AEC/2. 21.pdf"
+            ]
+          },
+          {
+            "name": "Module 3",
+            "paths": [
+              "/notes/SY/AEC/3. 22.pdf",
+              "/notes/SY/AEC/3. AEC 23 details.pdf",
+              "/notes/SY/AEC/3. AEC module 3 basics part A.pdf",
+              "/notes/SY/AEC/3. AEC module 3 basics part B.pdf",
+              "/notes/SY/AEC/3. AEC_Lec_23.pdf",
+              "/notes/SY/AEC/3. AEC_Lec_25a.pdf",
+              "/notes/SY/AEC/3. AEC_Lec_25b.pdf",
+              "/notes/SY/AEC/3. AEC_Lec_26.pdf",
+              "/notes/SY/AEC/3. AEC_Lec_27a.pdf",
+              "/notes/SY/AEC/3. AEC_Lec_27b.pdf"
+            ]
+          },
+          {
+            "name": "Module 4",
+            "paths": [
+              "/notes/SY/AEC/4. AEC Module 4.1 handout 1.pdf",
+              "/notes/SY/AEC/4. AEC Module 4.1 handout 2.pdf",
+              "/notes/SY/AEC/4. AEC Module 4.1 handout 3.pdf",
+              "/notes/SY/AEC/4. AEC Module 4.1 handout 4.pdf",
+              "/notes/SY/AEC/4. AEC Module 4.1 handout 5.pdf",
+              "/notes/SY/AEC/4. AEC Module 4.2 handout 1.pdf",
+              "/notes/SY/AEC/4. AEC Module 4.2 handout 2.pdf",
+              "/notes/SY/AEC/4. AEC Module 4.2 handout 3.pdf",
+              "/notes/SY/AEC/4. AEC Module 4.2 handout 4.pdf",
+              "/notes/SY/AEC/4. AEC Module 4.2 handout 5.pdf",
+              "/notes/SY/AEC/4. AEC Module 4.2 handout 6.pdf",
+              "/notes/SY/AEC/4. AEC Module 4.2 handout 7.pdf",
+              "/notes/SY/AEC/4. AEC_Lec_28.pdf",
+              "/notes/SY/AEC/4. AEC_Lec_29a.pdf",
+              "/notes/SY/AEC/4. AEC_Lec_29b.pdf",
+              "/notes/SY/AEC/4. AEC_Lec_30.pdf",
+              "/notes/SY/AEC/4. AEC_Lec_31.pdf",
+              "/notes/SY/AEC/4. AEC_Lec_34.pdf"
+            ]
+          },
+          {
+            "name": "Module 5",
+            "paths": [
+              "/notes/SY/AEC/5. AEC_Lec_35.pdf",
+              "/notes/SY/AEC/5. AEC_Lec_36_37.pdf",
+              "/notes/SY/AEC/5. AEC_Lec_39.pdf",
+              "/notes/SY/AEC/5. AEC_Lec_40.pdf",
+              "/notes/SY/AEC/5. AEC_Lec_41.pdf"
+            ]
+          }
+        ],
+        "extra": [
+          "/notes/SY/AEC/1. BJT fundamentals.pdf",
+          "/notes/SY/AEC/2. mosfet biasing.pdf",
+          "/notes/SY/AEC/2. MOSFET Constant Current Sources.pdf",
+          "/notes/SY/AEC/AEC Videos.pdf",
+          "/notes/SY/AEC/BCS47B Datasheet.pdf",
+          "/notes/SY/AEC/modern-digital-analog-communication-system-b.p-lathi-3e-compressed.pdf"
+        ]
+      },
+      "aoa": {
+        "name": "AOA",
+        "modules": [
+          {
+            "name": "Module 1",
+            "paths": [
+              "/notes/SY/AOA/1. AOA Time Recurrence Relations.pptx.pdf",
+              "/notes/SY/AOA/1. AOA-Mod1.pdf"
+            ]
+          },
+          {
+            "name": "Module 2",
+            "paths": [
+              "/notes/SY/AOA/2. AOA-Mod2.pdf",
+              "/notes/SY/AOA/2. Graphs-compressed.pdf",
+              "/notes/SY/AOA/2. Searching Techniques-compressed.pdf"
+            ]
+          },
+          {
+            "name": "Module 4",
+            "paths": [
+              "/notes/SY/AOA/4. Module 4 -Greedy Method compressed.pdf",
+              "/notes/SY/AOA/4. Module 4 Notes.pdf"
+            ]
+          }
+        ],
+        "extra": [
+          "/notes/SY/AOA/AOA Videos.pdf"
+        ]
+      }
+    },
+    "casot": {
+      "name": "CASOT",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/SY/CASOT/1. CORRELATION.pdf",
+            "/notes/SY/CASOT/1. REGRESSION.pdf",
+            "/notes/SY/CASOT/1.LPP-Basic Solutions.pdf"
+          ]
+        },
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/SY/CASOT/2. Bayes theorem.pdf",
+            "/notes/SY/CASOT/2. BINOMIAL DISTRIBUTION.pdf",
+            "/notes/SY/CASOT/2. Conditional Probability.pdf",
+            "/notes/SY/CASOT/2. Exponential DISTRIBUTION.pdf",
+            "/notes/SY/CASOT/2. Joint probability distribution.pdf",
+            "/notes/SY/CASOT/2. NORMAL DISTRIBUTION.pdf",
+            "/notes/SY/CASOT/2. POISSON DISTRIBUTION.pdf",
+            "/notes/SY/CASOT/2. PROBABILITY DISTRIBUTION.pdf",
+            "/notes/SY/CASOT/2. UNIFORM DISTRIBUTION.pdf"
+          ]
+        },
+        {
+          "name": "Module 3",
+          "paths": [
+            "/notes/SY/CASOT/3. LARGE SAMPLE TEST -2.pdf",
+            "/notes/SY/CASOT/3. LARGE SAMPLE TEST-1.pdf",
+            "/notes/SY/CASOT/3. SAMPLING- Introduction.pdf",
+            "/notes/SY/CASOT/3. SMALL SAMPLE TEST-1.pdf",
+            "/notes/SY/CASOT/3. SMALL SAMPLE TEST-2.pdf",
+            "/notes/SY/CASOT/3. SMALL SAMPLE TEST-3.pdf",
+            "/notes/SY/CASOT/3. x^2-Test.pdf"
+          ]
+        },
+        {
+          "name": "Module 4",
+          "paths": [
+            "/notes/SY/CASOT/4. LPP - Big M Method-2.pdf",
+            "/notes/SY/CASOT/4. LPP - Simplex Method.pdf",
+            "/notes/SY/CASOT/4. LPP - Standard Form.pdf",
+            "/notes/SY/CASOT/4. LPP- Big M method.pdf",
+            "/notes/SY/CASOT/4. LPP-Duality.pdf",
+            "/notes/SY/CASOT/4. NLPP-Kuhn Tucker Conditions.pdf",
+            "/notes/SY/CASOT/4. NLPP-Lagrangian Method.pdf",
+            "/notes/SY/CASOT/4. NLPP without constraints.pdf",
+            "/notes/SY/CASOT/4. SIMPLEX METHOD FLOW CHART.pdf"
+          ]
+        }
+      ],
+      "extra": [
+        "/notes/SY/CASOT/CASOT Videos.pdf"
+      ]
+    },
+    "adc": {
+      "name": "ADC",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/SY/ADC/1. ADC DM Error.pdf",
+            "/notes/SY/ADC/1. ADC DSBFC TRANSMITTER.pdf",
+            "/notes/SY/ADC/1. AM Generation-compressed.pdf",
+            "/notes/SY/ADC/1. AM Detection.pdf",
+            "/notes/SY/ADC/1. AM Formula.pdf",
+            "/notes/SY/ADC/1. DSBSC GENERATION Methods-compressed.pdf",
+            "/notes/SY/ADC/1. SSB VSB ISB.pdf"
+          ]
+        },
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/SY/ADC/2. FM Modulation.pdf"
+          ]
+        },
+        {
+          "name": "Module 3",
+          "paths": [
+            "/notes/SY/ADC/3. AGC.pdf",
+            "/notes/SY/ADC/3. Basics of Radio Receiver.pdf",
+            "/notes/SY/ADC/3. FM receiver.pdf",
+            "/notes/SY/ADC/3. Image frequency and its rejection-1.pdf",
+            "/notes/SY/ADC/3. TRF.pdf"
+          ]
+        },
+        {
+          "name": "Module 4",
+          "paths": [
+            "/notes/SY/ADC/4. 4.1 and 4.2 Pulse code modulation-compressed.pdf",
+            "/notes/SY/ADC/4. PCM-ppt.pdf",
+            "/notes/SY/ADC/4. Pulse Modulation-compressed.pdf",
+            "/notes/SY/ADC/4. Signals sampling theorem.pdf"
+          ]
+        },
+        {
+          "name": "Module 5",
+          "paths": [
+            "/notes/SY/ADC/5. Module 5 Digital Modulation Schemes.pdf",
+            "/notes/SY/ADC/5. PSK.pdf",
+            "/notes/SY/ADC/5. QAM 1.pdf",
+            "/notes/SY/ADC/5. QAM.pdf",
+            "/notes/SY/ADC/5. QPSK.pdf"
+          ]
+        }
+      ],
+      "extra": [
+        "/notes/SY/ADC/Adc Problems.pdf",
+        "/notes/SY/ADC/ADC Videos.docx.pdf",
+        "/notes/SY/ADC/Current source reference.pdf",
+        "/notes/SY/ADC/ISI.pdf"
+      ]
+    },
+    "dbms": {
+      "name": "DBMS",
+      "modules": [
+        {
+          "name": "Module 1",
+          "paths": [
+            "/notes/SY/DBMS/1. DBMS-Notes.pdf",
+            "/notes/SY/DBMS/1. Fundamental_of_Database_Systems.pdf",
+            "/notes/SY/DBMS/1. L1.pdf",
+            "/notes/SY/DBMS/1. Mod 1,2 notes-compressed.pdf",
+            "/notes/SY/DBMS/1. Module_1.1.pdf",
+            "/notes/SY/DBMS/1. weak entity korth.pdf"
+          ]
+        },
+        {
+          "name": "Module 2",
+          "paths": [
+            "/notes/SY/DBMS/2. ch11.pdf",
+            "/notes/SY/DBMS/2. ch12.pdf",
+            "/notes/SY/DBMS/2. intermediate sql korth.pdf",
+            "/notes/SY/DBMS/2. Module 2.1,2,2.pdf",
+            "/notes/SY/DBMS/2. Module_2.1.pdf",
+            "/notes/SY/DBMS/2. Module_2.3.pdf",
+            "/notes/SY/DBMS/2. Module_2.4_A.pdf",
+            "/notes/SY/DBMS/2. Module_2.4_B.pdf",
+            "/notes/SY/DBMS/2. Module_2.5.pdf",
+            "/notes/SY/DBMS/2. Module_2.6-2.7_A_SQL1.pdf",
+            "/notes/SY/DBMS/2. SQL_joins.pdf"
+          ]
+        },
+        {
+          "name": "Module 3",
+          "paths": [
+            "/notes/SY/DBMS/3. Mod3.pdf",
+            "/notes/SY/DBMS/3. Mod3Relations.pdf",
+            "/notes/SY/DBMS/3. Module 3.1-3.4.pdf"
+          ]
+        },
+        {
+          "name": "Module 4",
+          "paths": [
+            "/notes/SY/DBMS/4. Module_4_1_Indexing in Databases (1).pdf"
+          ]
+        },
+        {
+          "name": "Module 5",
+          "paths": [
+            "/notes/SY/DBMS/5. normalisation quiz.pdf",
+            "/notes/SY/DBMS/5. normalisation.pdf",
+            "/notes/SY/DBMS/5. recovery extra.pdf",
+            "/notes/SY/DBMS/5. transaction imp navathe.pdf",
+            "/notes/SY/DBMS/5. transaction korth imp.pdf",
+            "/notes/SY/DBMS/5. transaction_korth_Module 5.1.pdf"
+          ]
+        }
+      ],
+      "extra": [
+        "/notes/SY/DBMS/dbms book.pdf",
+        "/notes/SY/DBMS/DBMS docs.pdf",
+        "/notes/SY/DBMS/DBMS.pdf"
+      ]
+    }
+  }
