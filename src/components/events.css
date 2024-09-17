@@ -11,6 +11,13 @@ body {
     overflow-x: hidden; 
 }
 
+html, body {
+    height: 100% !important;
+    margin: 0 !important; 
+    padding: 0 !important;
+    font-family: Arial, sans-serif;
+  }
+
 @keyframes gradientAnimation {
     0% {
         background-position: 0% 50%;
@@ -155,6 +162,7 @@ body {
 .calendar-container {
     max-width: 57rem;
     margin: 1.875rem auto;
+    margin-top: 80px;
     padding: 1.25rem;
     background-color: white;
     border-radius: 0.625rem;
