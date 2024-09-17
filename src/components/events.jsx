@@ -102,7 +102,7 @@ function Events() {
     <>
       <nav className="navbar">
         <div className="logo">
-          <Link to="/"><img src='../' alt="e-CESA Logo" /></Link>
+        <Link to="/"><img src='../public/assets/images/logo.jpg' alt="e-CESA Logo" /></Link>
         </div>
         <ul className="nav-links">
           <li><Link to="/">About Us</Link></li>

@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './landing.css';
 
-
 gsap.registerPlugin(ScrollTrigger);
 
 const Landing = () => {
@@ -80,7 +79,7 @@ const Landing = () => {
     <div className="landing">
       <nav className="navbar">
         <div className="logo">
-          <Link to="/"><img src='../' alt="e-CESA Logo" /></Link>
+          <Link to="/"><img src='../public/assets/images/logo.jpg' alt="e-CESA Logo" /></Link>
         </div>
         <ul className="nav-links">
           <li><a href="#about">About Us</a></li>
@@ -157,7 +156,7 @@ const Landing = () => {
           <h3 className="team-title">Creative Team</h3>
           <div className="members creative-team">
             <div className="member purva">
-              <p className='member-title'>Purva Bhaddawkar<br />(Creative Head)</p>
+              <p className='member-title'>Purva Bhadawkar<br />(Creative Head)</p>
             </div>
             <div className="member priyanshu">
               <p className='member-title'>Priyanshu Mishra<br />(Creative Head)</p>

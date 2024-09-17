@@ -130,6 +130,11 @@ html, body {
   margin-left: 250px; /* Offset the main content to the right of the fixed sidebar */
 }
 
+.pdf-list {
+  height: 300px; /* Set a fixed height for the PDF list container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
 .pdf-list h3 {
   margin-top: 0;
   font-size: 18px;

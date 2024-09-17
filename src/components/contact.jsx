@@ -6,7 +6,7 @@ function Contact() {
     <>
       <nav className="navbar">
         <div className="logo">
-          <Link to="/"><img src='../path/to/logo.png' alt="e-CESA Logo" /></Link> {/* Use the correct path to the logo image */}
+        <Link to="/"><img src='../public/assets/images/logo.jpg' alt="e-CESA Logo" /></Link> {/* Use the correct path to the logo image */}
         </div>
         <ul className="nav-links">
           <li><Link to="/">About Us</Link></li>
@@ -55,10 +55,6 @@ function Contact() {
             </div>
           </div>
         </div>
-      </div>
-      
-      <div className="footer">
-        <p>© 2023 e-CESA. All rights reserved.</p>
       </div>
     </>
   );

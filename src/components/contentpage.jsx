@@ -40,7 +40,7 @@ const ContentPage = () => {
     if (videoDataForSubject) {
       const paths = videoDataForSubject.videos.map(path => path.replace('/public', '')); // Adjust the paths
       setPdfPaths(paths);
-      setSelectedPdf(paths[0]); // Default to the first PDF
+      setSelectedPdf(paths[0]);
       setPdfError(null);
     } else {
       setPdfPaths([]);
@@ -54,7 +54,7 @@ const ContentPage = () => {
     if (bookDataForSubject) {
       const paths = bookDataForSubject.books.map(path => path.replace('/public', '')); // Adjust the paths
       setPdfPaths(paths);
-      setSelectedPdf(paths[0]); // Default to the first PDF
+      setSelectedPdf(paths[0]); 
       setPdfError(null);
     } else {
       setPdfPaths([]);
@@ -129,7 +129,7 @@ const ContentPage = () => {
     <>
       <nav className="navbar">
         <div className="logo">
-          <Link to="/"><img src='/path/to/logo.png' alt="e-CESA Logo" /></Link>
+        <Link to="/"><img src='../public/assets/images/logo.jpg' alt="e-CESA Logo" /></Link>
         </div>
         <ul className="nav-links">
           <li><Link to="/">About Us</Link></li>

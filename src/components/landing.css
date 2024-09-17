@@ -36,35 +36,50 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px 70px;
+  align-items: center; /* Center items vertically */
+  padding: 60px 120px; /* Increased padding */
+  height: 250px; /* Increased height */
   color: var(--pr-color);
   position: sticky;
   top: 0;
   background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
   z-index: 1000;
+  font-size: 2rem; /* Increased the overall font size */
+  margin-top: -50px; /* Overlap the image from the top */
 }
 
 .logo img {
-  width: 100px;
-  height: auto;
+  width: auto; /* Maintain aspect ratio */
+  height: 350px; /* Increased height for a larger logo */
+  max-height: 550px; /* Limit the max size */
+  display: block;
+  margin: 0; /* Center the logo */
+  object-fit: contain; /* Prevent stretching */
+}
+
+@media screen and (max-width: 768px) {
+  .logo img {
+    height: 150px; /* Adjusted for mobile devices */
+  }
 }
 
 .nav-links {
   list-style-type: none;
   display: flex;
-  gap: 20px;
+  gap: 40px; /* Increased gap between the links */
 }
 
 .nav-links li a {
   color: var(--pr-color);
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.8rem; /* Increased font size for the links */
   transition: color 0.3s;
 }
 
 .nav-links li a:hover {
-  color: #007bff;
+  color: var(--hover-shadow-color); /* Optional: Add a hover effect */
 }
 
 .hero-section {
@@ -75,7 +90,6 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  /* background: url('../public/assets/images/grp.JPG') no-repeat center center/cover; */
 }
 
 .hero-section::before {
@@ -85,34 +99,29 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  z-index: 1; /* Layer the overlay behind the text but above the image */
 }
 
 .title {
   position: relative;
   font-size: var(--fz-big);
   text-align: center;
-  color: var(--pr-color);
+  color: #1e90ff; /* Solid Dodger Blue color */
   text-transform: uppercase;
-  mix-blend-mode: difference;
-  z-index: 2;
+  z-index: 2; /* Keep the text above the image */
 }
 
 .header__img {
   position: absolute;
-  width: 45%;
-  height: 100%;
   top: 0;
-  right: 100px;
-  clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
-  overflow: hidden;
-}
-
-.header__img img {
-  display: block;
+  left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  z-index: 0; /* Ensure the image stays behind the overlay and text */
+  background: url("../assets/images/grp.JPG") no-repeat center center;
+  background-size: cover;
+  /* No opacity, image remains in full color */
 }
 
 .section-title {
@@ -136,14 +145,14 @@ body {
 }
 
 .about-us-section, .why-we-exist-section {
-  background: rgba(255, 255, 255, 0.2) !important; /* Semi-transparent background */
+  background: rgba(255, 255, 255, 0.2) !important;
   border-radius: 10px !important;
   padding: 20px !important;
   margin: 40px !important;
-  backdrop-filter: blur(10px) !important; /* Blur effect */
-  -webkit-backdrop-filter: blur(10px) !important; /* For Safari */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow */
-  border: 1px solid rgba(255, 255, 255, 0.3) !important; /* Light border */
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
   margin-bottom: 25px;
 }
 
@@ -163,8 +172,8 @@ body {
 
 .member {
   text-align: center;
-  width: 250px; /* Adjust the width as needed */
-  height: 350px; /* Adjust the height as needed */
+  width: 250px;
+  height: 350px;
   background-size: cover;
   background-position: center;
   margin: 10px 45px 55px 55px;
@@ -201,6 +210,7 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+
 
 .member.pratham {
   background-image: url('/assets/members/pratham.jpg');
@@ -291,11 +301,11 @@ body {
 }
 
 .member.purva_2 {
-  background-image: url('../public/assets/members/pratham.jpg');
+  background-image: url('../public/assets/members/jtpurva.jpeg');
 }
 
 .member.shrutika {
-  background-image: url('../public/assets/members/pratham.jpg');
+  background-image: url('../public/assets/members/shrutika.jpeg');
 }
 
 .member.arun {
