@@ -36,15 +36,15 @@ function Events() {
     // Sample Events Data
     const events = {
       "2024-08-20": {
-        image: "https://via.placeholder.com/600x400?text=Event+1",
+        image: "/public/assets/images/grp.JPG",
         description: "Join us for the handover ceremony marking the transfer of councils and the formation of the new council."
       },
       "2024-09-02": {
-        image: "https://via.placeholder.com/600x400?text=Event+2",
+        image: "/assets/images/btech.png",
         description: "Explore our roadmap for navigating your BTech journey, from core courses to key milestones and basic steps towards career planning."
       },
       "2024-09-05": {
-        image: "https://via.placeholder.com/600x400?text=Event+3",
+        image: "/public/assets/images/handover1.png",
         description: "Celebrate Teachers' Day with us. A day filled with gratitude and appreciation for our mentors."
       }
     };

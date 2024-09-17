@@ -89,9 +89,10 @@ html, body {
   border-radius: 5px;
 }
 
-.sidebar ul li button:hover {
-  background-color: #0056b3; /* Darker shade for hover effect */
-}
+/* Removed hover effect from pdf-list buttons */
+/* .pdf-list ul li button:hover {
+  background-color: #0056b3; 
+} */
 
 .sidebar .more-info-button {
   width: 100%;
@@ -135,7 +136,8 @@ html, body {
   height: 600px; /* Increased height for the PDF list container */
   overflow-y: auto; /* Enable vertical scrolling */
   width: 800px;
-  margin-left:10px;
+  margin-left: 10px;
+  margin-bottom: 20px; /* Add bottom margin to create space */
 }
 
 .pdf-list h3 {
@@ -165,10 +167,6 @@ html, body {
   border-radius: 5px;
 }
 
-.pdf-list ul li button:hover {
-  background-color: #0056b3; /* Darker shade for hover effect */
-}
-
 .error-message {
   color: red;
   font-size: 16px;
@@ -187,6 +185,12 @@ html, body {
   font-size: 24px;
   font-weight: bold;
   color: #1c1c1c; /* Dark color for subject title */
+}
+
+iframe {
+  margin-left: 40px; /* Add left margin to the iframe */
+  margin-bottom: 100px;
+  margin-top: -40px;
 }
 
 /* Media Queries for Responsiveness */
@@ -208,6 +212,7 @@ html, body {
 
   .pdf-list {
     height: 400px; /* Adjusted height for smaller screens */
+    margin-bottom: 20px; /* Add bottom margin to create space */
   }
 }
 
@@ -237,5 +242,10 @@ html, body {
 
   .pdf-list {
     height: 300px; /* Adjusted height for mobile screens */
+    margin-bottom: 20px; /* Add bottom margin to create space */
+  }
+
+  iframe {
+    margin-left: 10; /* Remove left margin for mobile screens */
   }
 }

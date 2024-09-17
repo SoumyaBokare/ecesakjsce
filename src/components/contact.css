@@ -10,12 +10,10 @@ body {
     color: #ffffff; 
 }
 
-
 html, body {
     margin: 0 !important;
     padding: 0 !important;
 }
-
 
 @keyframes gradientAnimation {
     0% {
@@ -44,11 +42,10 @@ html, body {
     width: 100%;
     padding: 1.25rem 1.25rem;
     display: flex;
-    flex-direction: row !important;
+    flex-direction: row;
     align-items: center;
-    margin: 0;
     justify-content: space-between;
-    margin-bottom: 80px !important;
+    margin: 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -67,11 +64,10 @@ html, body {
 .navbar-links {
     list-style: none;
     margin: 0;
-    padding: 0 0.625rem;
+    padding: 0;
     display: flex;
-    flex-direction: row !important;
+    flex-direction: row;
     gap: 1.25rem;
-    margin-left: auto;
 }
 
 .navbar-links li {
@@ -84,7 +80,6 @@ html, body {
     font-size: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
-    text-align: right;
     transition: background-color 0.3s, transform 0.3s; 
 }
 
@@ -335,6 +330,7 @@ form button:active {
     .navbar-links {
         flex-direction: column;
         gap: 0.5rem;
+        align-items: flex-start; /* Ensure links are aligned to the left */
     }
 
     .navbar-links li {
@@ -365,6 +361,7 @@ form button:active {
     .navbar-links {
         flex-direction: column;
         gap: 0.5rem;
+        align-items: flex-start; /* Ensure links are aligned to the left */
     }
 
     .navbar-links li {

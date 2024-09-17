@@ -1,7 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './landing.css';
 
@@ -10,7 +9,6 @@ gsap.registerPlugin(ScrollTrigger);
 const Landing = () => {
   const heroRef = useRef(null);
   const imageRef = useRef(null);
-  const navigate = useNavigate();
 
   useEffect(() => {
     gsap.to(heroRef.current, {
@@ -68,12 +66,22 @@ const Landing = () => {
         },
       }
     );
-  }, []);
 
-  const handleContactClick = () => {
-    navigate('/contact');
-    navigate('/events');
-  };
+    // Animation for the hero section
+    const letters = document.querySelectorAll('.letter');
+    letters.forEach((letter, index) => {
+      gsap.fromTo(letter, {
+        opacity: 0,
+        y: 50,
+      }, {
+        opacity: 1,
+        y: 0,
+        delay: index * 0.1,
+        duration: 0.5,
+        ease: "power1.out",
+      });
+    });
+  }, []);
 
   return (
     <div className="landing">
@@ -84,16 +92,18 @@ const Landing = () => {
         <ul className="nav-links">
           <li><a href="#about">About Us</a></li>
           <li><Link to="/events">Events</Link></li>
-          <li><a href="#contact" onClick={handleContactClick}>Contact Us</a></li>
+          <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/notemate">Notemate</Link></li>
         </ul>
       </nav>
 
       <section className="header hero-section" ref={heroRef}>
-        <h1 className="title welcome-message">Welcome to e-CESA</h1>
-        <div className="header__img group-photo">
-          <img src="../assets/images/grp.JPG" alt="Group" ref={imageRef} />
-        </div>
+        <div className="header__img" ref={imageRef}></div>
+        <h1 className="title welcome-message">
+          {Array.from("Welcome to e-CESA").map((char, index) => (
+            <span key={index} className="letter">{char}</span>
+          ))}
+        </h1>
       </section>
 
       <section className="about about-us-section glass-effect" id="about">
@@ -230,7 +240,7 @@ const Landing = () => {
 
       <footer className="footer">
         <div className="footer__div">
-          Made with ❤️ by <br></br>
+          Made with ❤️ by <br />
           E-CESA KJSCE
         </div>
       </footer>

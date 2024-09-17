@@ -1,12 +1,29 @@
+import { useRef } from 'react';
 import { Link } from 'react-router-dom';
+import emailjs from '@emailjs/browser';
 import './contact.css';
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_1ssv4zc', 'template_63nsa0l', form.current, 'g6XLSb9OTzJOwqXbA')
+      .then((result) => {
+          console.log(result.text);
+          alert('Message sent successfully!');
+      }, (error) => {
+          console.log(error.text);
+          alert('Failed to send message, please try again.');
+      });
+  };
+
   return (
     <>
       <nav className="navbar">
         <div className="logo">
-        <Link to="/"><img src='../public/assets/images/logo.jpg' alt="e-CESA Logo" /></Link> {/* Use the correct path to the logo image */}
+          <Link to="/"><img src='../public/assets/images/logo.jpg' alt="e-CESA Logo" /></Link> {/* Use the correct path to the logo image */}
         </div>
         <ul className="nav-links">
           <li><Link to="/">About Us</Link></li>
@@ -40,7 +57,7 @@ function Contact() {
             </div>
             <div className="partition"></div>
             <div className="right">
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <label htmlFor="name">Name</label>
                 <input type="text" id="name" name="name" required />
 
