@@ -69,7 +69,7 @@ const Notemate = () => {
     { className: 'oopl', name: 'OOPL', content: ['notes', 'videos', 'reference-books'] },
     { className: 'nss', name: 'NSS', content: ['notes', 'videos', 'reference-books'] },
     { className: 'dbms', name: 'DBMS', content: ['notes', 'videos', 'reference-books'] },
-    { className: 'mpmc', name: 'MPMC', content: ['notes',  'reference-books'] },
+    
   ];
 
   return (

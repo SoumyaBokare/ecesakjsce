@@ -46,6 +46,10 @@
       "de": {
         "name": "DE",
         "books": ["/public/notes/Others/Reference books/de book.pdf"]
+      },
+      "dbms": {
+        "name": "DBMS",
+        "books": ["/notes/SY/DBMS/dbms book.pdf"]
       }
     }
   }

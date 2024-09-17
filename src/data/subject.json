@@ -7,8 +7,8 @@
           "name": "Module 1",
           "paths": [
             "/notes/FY/AM1/1_Complex Numbers - Review ppt.pdf",
-            "/notes/FY/AM1/1_COMPLEX NUMBERS-REVIEW.pdf",
-            "/notes/FY/AM1/2_De Moivres Theorem related examples.pdf",
+            "/notes/FY/AM1/1_COMPLEX NUMBERS- REVIEW.pdf",
+            "/notes/FY/AM1/2_De Moivres Theorem  related examples.pdf",
             "/notes/FY/AM1/3_Roots of Complex Numbers.pdf",
             "/notes/FY/AM1/7_Logarithm of complex number.pdf"
           ]
@@ -35,7 +35,7 @@
           "name": "Module 4",
           "paths": [
             "/notes/FY/AM1/6_homogeneous System of Linear equations.pdf",
-            "/notes/FY/AM1/1_Homogeneous functions Theorem Corollaries.pdf",
+            "/notes/FY/AM1/1_Homogeneous functions Theorem  Corollaries.pdf",
             "/notes/FY/AM1/Practice Questions on system of equations.pdf",
             "/notes/FY/AM1/Proofs related to Homogeneous Functions.pdf",
             "/notes/FY/AM1/Question bank 1- complex numbers.pdf"
@@ -166,7 +166,7 @@
         {
           "name": "Module 1",
           "paths": [
-            "/notes/FY/EEEE/Mimans Electronics-Devices-and-Circuits-compressed.pdf"
+            "/notes/FY/EEEE/eeee psd.pdf"
           ]
         }
       ]
@@ -209,31 +209,31 @@
         {
           "name": "Module 1",
           "paths": [
-            "/notes/FY/EP/1.Lasers - Formulas.pdf",
-            "/notes/FY/EP/1.Lasers - Notes.pdf",
-            "/notes/FY/EP/1.Lasers - Numericals.pdf",
-            "/notes/FY/EP/1.Lasers - Questions.pdf",
-            "/notes/FY/EP/1.Optical Fibres - Formulas.pdf",
-            "/notes/FY/EP/1.Optical Fibres - Notes.pdf",
-            "/notes/FY/EP/1.Optical Fibres - Numericals.pdf",
-            "/notes/FY/EP/1.Optical Fibres - Questions.pdf"
+            "/notes/FY/EP/1_Lasers - Formulas.pdf",
+            "/notes/FY/EP/1_Lasers - Notes.pdf",
+            "/notes/FY/EP/1_Lasers - Numericals.pdf",
+            "/notes/FY/EP/1_Lasers - Questions.pdf",
+            "/notes/FY/EP/1_Optical Fibres - Formulas.pdf",
+            "/notes/FY/EP/1_Optical Fibres - Notes.pdf",
+            "/notes/FY/EP/1_Optical Fibres - Numericals.pdf",
+            "/notes/FY/EP/1_Optical Fibres - Questions.pdf"
           ]
         },
         {
           "name": "Module 2",
           "paths": [
-            "/notes/FY/EP/2.Dielectrics - Formulas.pdf",
-            "/notes/FY/EP/2.Dielectrics - Notes.pdf",
-            "/notes/FY/EP/2.Dielectrics - Questions.pdf"
+            "/notes/FY/EP/2_Dielectrics - Formulas.pdf",
+            "/notes/FY/EP/2_Dielectrics - Notes.pdf",
+            "/notes/FY/EP/2_Dielectrics - Questions.pdf"
           ]
         },
         {
           "name": "Module 4",
           "paths": [
-            "/notes/FY/EP/4.Electrodynamics - Notes1.pdf",
-            "/notes/FY/EP/4.Electrodynamics - Notes2.pdf",
-            "/notes/FY/EP/4.Electrodynamics - Questions1.pdf",
-            "/notes/FY/EP/4.Electrodynamics - Questions2.pdf"
+            "/notes/FY/EP/Electrodynamics1.pdf",
+            "/notes/FY/EP/Electrodynamics2.pdf",
+            "/notes/FY/EP/4_Electrodynamics - Questions1.pdf",
+            "/notes/FY/EP/4_Electrodynamics PPT.pdf"
           ]
         }
       ]
@@ -596,23 +596,23 @@
         {
           "name": "Module 1",
           "paths": [
-            "/notes/SY/CASOT/1. CORRELATION.pdf",
-            "/notes/SY/CASOT/1. REGRESSION.pdf",
+            "/notes/SY/CASOT/1_CORRELATION.pdf",
+            "/notes/SY/CASOT/1_REGRESSION.pdf",
             "/notes/SY/CASOT/1.LPP-Basic Solutions.pdf"
           ]
         },
         {
           "name": "Module 2",
           "paths": [
-            "/notes/SY/CASOT/2. Bayes theorem.pdf",
-            "/notes/SY/CASOT/2. BINOMIAL DISTRIBUTION.pdf",
-            "/notes/SY/CASOT/2. Conditional Probability.pdf",
-            "/notes/SY/CASOT/2. Exponential DISTRIBUTION.pdf",
-            "/notes/SY/CASOT/2. Joint probability distribution.pdf",
-            "/notes/SY/CASOT/2. NORMAL DISTRIBUTION.pdf",
-            "/notes/SY/CASOT/2. POISSON DISTRIBUTION.pdf",
-            "/notes/SY/CASOT/2. PROBABILITY DISTRIBUTION.pdf",
-            "/notes/SY/CASOT/2. UNIFORM DISTRIBUTION.pdf"
+            "/notes/SY/CASOT/2_Bayes theorem.pdf",
+            "/notes/SY/CASOT/2_BINOMIAL DISTRIBUTION.pdf",
+            "/notes/SY/CASOT/2_Conditional Probability.pdf",
+            "/notes/SY/CASOT/2_Exponential DISTRIBUTION.pdf",
+            "/notes/SY/CASOT/2_Joint probability distribution.pdf",
+            "/notes/SY/CASOT/2_NORMAL DISTRIBUTION.pdf",
+            "/notes/SY/CASOT/2_POISSON DISTRIBUTION.pdf",
+            "/notes/SY/CASOT/2_PROBABILITY DISTRIBUTION.pdf",
+            "/notes/SY/CASOT/2_UNIFORM DISTRIBUTION.pdf"
           ]
         },
         {

@@ -10,13 +10,13 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path ="/events" element={<Events />} />
-        <Route path ="/notemate" element={<Notemate />} />
-        <Route path="/:year/:subject/notes" element={<ContentPage type="notes" />} />
-        <Route path="/:year/:subject/videos" element={<ContentPage type="videos" />} />
-        <Route path="/:year/:subject/reference-books" element={<ContentPage type="reference-books" />} />
+        <Route path="/" element={<Landing />} key="landing" />
+        <Route path="/contact" element={<Contact />} key="contact" />
+        <Route path="/events" element={<Events />} key="events" />
+        <Route path="/notemate" element={<Notemate />} key="notemate" />
+        <Route path="/:year/:subject/notes" element={<ContentPage type="notes" />} key="notes" />
+        <Route path="/:year/:subject/videos" element={<ContentPage type="videos" />} key="videos" />
+        <Route path="/:year/:subject/reference-books" element={<ContentPage type="reference-books" />} key="reference-books" />
       </Routes>
     </Router>
   );
