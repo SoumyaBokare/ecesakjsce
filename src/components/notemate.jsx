@@ -100,15 +100,7 @@ const Notemate = () => {
           <div className={`card ${subject.className}`} key={index}>
             <h3 className="card-title">{subject.name}</h3>
             <div className="card-buttons">
-              {subject.content.includes('notes') && (
-                <button className="view-details-btn" onClick={() => navigate(`/fy/${subject.className}/notes`)}>Notes</button>
-              )}
-              {subject.content.includes('videos') && (
-                <button className="view-details-btn" onClick={() => navigate(`/fy/${subject.className}/videos`)}>Videos</button>
-              )}
-              {subject.content.includes('reference-books') && (
-                <button className="view-details-btn" onClick={() => navigate(`/fy/${subject.className}/reference-books`)}>Reference Books</button>
-              )}
+              <button className="view-details-btn" onClick={() => navigate(`/fy/${subject.className}/notes`)}>More Info</button>
             </div>
           </div>
         ))}
@@ -119,15 +111,7 @@ const Notemate = () => {
           <div className={`card ${subject.className}`} key={index}>
             <h3 className="card-title">{subject.name}</h3>
             <div className="card-buttons">
-              {subject.content.includes('notes') && (
-                <button className="view-details-btn" onClick={() => navigate(`/sy/${subject.className}/notes`)}>Notes</button>
-              )}
-              {subject.content.includes('videos') && (
-                <button className="view-details-btn" onClick={() => navigate(`/sy/${subject.className}/videos`)}>Videos</button>
-              )}
-              {subject.content.includes('reference-books') && (
-                <button className="view-details-btn" onClick={() => navigate(`/sy/${subject.className}/reference-books`)}>Reference Books</button>
-              )}
+              <button className="view-details-btn" onClick={() => navigate(`/sy/${subject.className}/notes`)}>More Info</button>
             </div>
           </div>
         ))}
