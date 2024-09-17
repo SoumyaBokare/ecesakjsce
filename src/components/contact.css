@@ -174,11 +174,11 @@ html, body {
 }
 
 .bg-card {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     background-color: #ffffff;
     border-radius: 0.5rem;
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-    padding: 2rem;
+    padding: 0.2rem;
     width: 80%;
     max-width: 59.375rem;
     max-height: 57.5rem;

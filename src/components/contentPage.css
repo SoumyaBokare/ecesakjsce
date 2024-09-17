@@ -9,6 +9,7 @@ html, body {
 /* Ensure the main container takes full height */
 .content-page {
   display: flex;
+  flex-direction: column;
   height: calc(100vh - 60px); /* Adjust height to account for navbar height */
 }
 
@@ -131,14 +132,16 @@ html, body {
 }
 
 .pdf-list {
-  height: 300px; /* Set a fixed height for the PDF list container */
+  height: 600px; /* Increased height for the PDF list container */
   overflow-y: auto; /* Enable vertical scrolling */
+  width: 800px;
+  margin-left:10px;
 }
 
 .pdf-list h3 {
   margin-top: 0;
   font-size: 18px;
-  color: #1c1c1c;
+  color: #cec5c5;
 }
 
 .pdf-list ul {
@@ -184,4 +187,55 @@ html, body {
   font-size: 24px;
   font-weight: bold;
   color: #1c1c1c; /* Dark color for subject title */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .content-page {
+    flex-direction: column;
+  }
+
+  .pdf-list {
+    height: 400px; /* Adjusted height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .navbar .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .nav-links li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .sidebar {
+    padding: 10px;
+  }
+
+  .main-content {
+    padding: 10px;
+  }
+
+  .pdf-list {
+    height: 300px; /* Adjusted height for mobile screens */
+  }
 }
