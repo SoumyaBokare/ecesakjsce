@@ -129,7 +129,8 @@ const ContentPage = () => {
     <>
       <nav className="navbar">
         <div className="logo">
-        <Link to="/"><img src="/assets/images/logo.jpg" alt="e-CESA Logo" /></Link>        </div>
+        <Link to="/"><img src="/assets/images/logo.jpg" alt="e-CESA Logo" /></Link> 
+               </div>
         <ul className="nav-links">
           <li><Link to="/">About Us</Link></li>
           <li><Link to="/events">Events</Link></li>

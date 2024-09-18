@@ -101,7 +101,7 @@ body {
   position: relative;
   font-size: var(--fz-big);
   text-align: center;
-  color: #e9f1e4; /* Bright orange-red color */
+  color: #65e118; /* Bright orange-red color */
   text-transform: uppercase;
   z-index: 2;
 }

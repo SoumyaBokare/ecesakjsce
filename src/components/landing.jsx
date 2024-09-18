@@ -87,7 +87,7 @@ const Landing = () => {
     <div className="landing">
       <nav className="navbar">
         <div className="logo">
-          <Link to="/"><img src='../public/assets/images/logo.jpg' alt="e-CESA Logo" /></Link>
+        <Link to="/"><img src="/assets/images/logo.jpg" alt="e-CESA Logo" /></Link> 
         </div>
         <ul className="nav-links">
           <li><a href="#about">About Us</a></li>
@@ -99,11 +99,11 @@ const Landing = () => {
 
       <section className="header hero-section" ref={heroRef}>
         <div className="header__img" ref={imageRef}></div>
-        <h1 className="title welcome-message">
+        {/* <h1 className="title welcome-message">
           {Array.from("Welcome to e-CESA").map((char, index) => (
             <span key={index} className="letter">{char}</span>
           ))}
-        </h1>
+        </h1> */}
       </section>
 
       <section className="about about-us-section glass-effect" id="about">
